@@ -1,2 +1,0 @@
-# Some devices
-SUBSYSTEM=="tty", ATTRS{idVendor}=="0000", ATTRS{idProduct}=="0000", PROGRAM="/usr/bin/acme-udev-name %k", SYMLINK+="%c", GROUP="plugdev"
